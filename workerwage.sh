@@ -1,3 +1,4 @@
+echo "Welcome to Employee Wage Computation Program"
 wagePerHr=20
 
 fullTimePresent=1
@@ -8,7 +9,7 @@ partTime=4
 
 count=0
 monthyWage=0
-echo "Welcome to Employee Wage Computation Program"
+
 for (( i=1; i<=20; i++ ))
 do 
 random=$(( RANDOM%3 ))
